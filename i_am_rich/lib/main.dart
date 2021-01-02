@@ -1,9 +1,21 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    home: Center(
-      child: Text("Hello World"),
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('I am rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'https://www.elite-skateshop.com/852/skate-bart-tableau.jpg'),
+          ),
+        ),
+      ),
     ),
-  ));
+  );
 }
