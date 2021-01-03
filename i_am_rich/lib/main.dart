@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.elite-skateshop.com/852/skate-bart-tableau.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
